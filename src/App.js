@@ -32,7 +32,7 @@ export default function App() {
   };
 
   const positivePercentage = () => {
-    return Math.round((good * 100) / total);
+    return Math.round((good * 100) / total());
   };
 
   const options = Object.keys(state);
